@@ -11,8 +11,8 @@ CREATE USER spaceman_game_user WITH
 
 ALTER USER spaceman_game_user with PASSWORD 'password';
 
--- Database: spaceman_game
--- DROP DATABASE spaceman_game;
+-- Database: spaceman_game
+-- DROP DATABASE spaceman_game;
 
 CREATE DATABASE spaceman_game
     WITH 
@@ -23,7 +23,7 @@ CREATE DATABASE spaceman_game
     TABLESPACE = pg_default
     CONNECTION LIMIT = -1;
 
-GRANT ALL ON DATABASE spaceman_game TO postgres;
+GRANT ALL ON DATABASE spaceman_game TO postgres; 
 
 GRANT TEMPORARY, CONNECT ON DATABASE spaceman_game TO PUBLIC;
 

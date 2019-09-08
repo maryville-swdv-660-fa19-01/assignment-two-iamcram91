@@ -90,7 +90,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'spaceman_game',
         'USER': 'spaceman_game_user',
-        'PASSWORD': 'password',
+        'PASSWORD': 'Striker9!',
         'HOST': 'localhost',
         'PORT': '5432',
     }
